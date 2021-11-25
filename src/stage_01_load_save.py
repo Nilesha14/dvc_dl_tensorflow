@@ -43,5 +43,5 @@ if __name__ == '__main__':
         get_data(config_path=parsed_args.config)
         logging.info("stage one completed! all the data are saved in local >>>>>")
     except Exception as e:
-        logging.Exception(e)
+        logging.exception(e)
         raise e
